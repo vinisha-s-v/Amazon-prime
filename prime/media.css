@@ -1,0 +1,349 @@
+@media (max-width:1100px) {
+    nav .container {
+        margin: 0 auto;
+        max-width: 880px;
+    }
+
+    .navSub1 {
+        flex: 15%;
+    }
+    
+    .navSub2 {
+        flex: 42.5%;
+        /* background-color: #00a0d6; */
+        
+    }
+    .navSub2 ul li{
+        padding: 0 10px;
+    }
+    
+
+    .navSub3 {
+        flex: 42.5%;
+    }
+}
+
+@media (max-width:880px) {
+    .navSub1 {
+        order: 2;
+        flex: 20%;
+    }
+
+    .navSub2 {
+        order: 1;
+        flex: 40%;
+    }
+
+    .navSub3 {
+        order: 3;
+        flex: 40%;
+    }
+
+    nav .navSub2 ul {
+        position: fixed;
+        top: 50px;
+        left: -120%;
+        background-color: grey;
+        color: rgb(239, 222, 222);
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: left;
+        transition: all 400ms;
+        z-index: 2;
+    }
+
+    nav .navSub2 ul li {
+        color: aliceblue;
+    }
+
+    nav label {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    #checking:checked~ul {
+        left: 0;
+    }
+
+    .navSub3 .en {
+        display: none;
+    }
+
+    .navSub3 .try {
+        display: none;
+    }
+
+    .navSub3 ul {
+        justify-content: flex-end;
+    }
+
+
+
+
+
+    nav .navSub2 p {
+        font-size: larger;
+        color: white;
+    }
+}
+
+@media (max-width:680px) {
+    .navSub1 {
+        flex: 30%;
+    }
+
+    .navSub2 {
+        order: 1;
+        flex: 35%;
+    }
+
+    .navSub3 {
+        order: 3;
+        flex: 35%;
+    }
+}
+
+@media (max-width:580px) {
+    .navSub1 h2 {
+        font-size: 17px
+    }
+}
+@media (max-width:380px) {
+    .navSub1 {
+        flex: 30%;
+    }
+    .navSub1 h2{
+        font-size: 13px;
+    }
+    .navSub2 label{
+        font-size: 13px;
+    }
+    .navSub2 {
+
+        flex: 30%;
+    }
+
+    .navSub3 {
+
+        flex: 40%;
+    }
+}
+/* @media (max-width:1280px) {
+    .navMain {
+        width:
+    }
+
+} */
+
+/* -------------------------------main-------------------------------------- */
+/* main */
+@media (max-width:1000px) {
+    .welcome h2 {
+        color: rgb(241, 231, 231);
+        font-weight: 20;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .watchdiv p {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    .buttondiv button {
+        padding: 18px 26px;
+        border-radius: 5px;
+        background-color: #00a0d6;
+        border: none;
+        color: white;
+        font-size: medium;
+    }
+}
+
+@media (max-width:800px) {
+    .welcome h2 {
+        color: rgb(241, 231, 231);
+        font-weight: 20;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .watchdiv p {
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    .buttondiv button {
+        padding: 18px 26px;
+        border-radius: 5px;
+        background-color: #00a0d6;
+        border: none;
+        color: white;
+        font-size: medium;
+    }
+}
+
+@media (max-width:600px) {
+    .welcome h2 {
+        color: #f1e7e7;
+        font-weight: 20;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .watchdiv p {
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    .buttondiv button {
+        padding: 11px 22px;
+        border-radius: 5px;
+        background-color: #00a0d6;
+        border: none;
+        color: white;
+        font-size: 13px
+    }
+
+}
+
+
+/* ====================remote===================== */
+@media(max-width:1100px) {
+    .welcomeremote h1{
+        font-size: 35px;
+    }
+    .welcomeremote p{
+        font-size: 20px;
+    }
+    .Remotebuttondiv button{
+        padding: 15px 60px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .remote{
+        flex-direction: column;
+        height: 700px;
+    }
+    .remote2{
+        /* height: 100vh; */
+        padding: 20px 50px;
+    }
+    .main{
+    flex-direction:  column-reverse;
+    }
+    
+ }
+ /* @media(max-width:750px){
+    .main{
+        font-size: 10px;
+    }
+    .remote{
+        font-size: small;
+    }
+ } */
+ @media(max-width:350px){
+    .remote{
+        height: 800px;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+ @media(max-width:1300px)
+ {
+    .third para{
+        font-size: 15px;
+    }
+    
+ }
+ @media(max-width:800px){
+    /* .right{
+        display: none;
+    } */
+    /* .secondright{
+        display: block;
+    }
+    .imge{
+        width: 30%;
+    } */
+    .right{
+        grid-template-columns: 1fr 1fr;
+    }
+   
+
+ }
+ @media(max-width:660px)
+ {
+    .secondright{
+        display: none;
+
+    }
+    .right{
+        display: block;
+        flex: 100%;
+        width: 100%;
+    }
+    .third{
+        flex-direction: column;
+        height: auto;
+    }
+    .imge{
+        width: 30%;
+    }
+    .left{
+        flex:50%;
+        width:80%;
+        
+        padding: 5% 0% 10% 10%;
+       
+        padding-left: 10%;
+    }
+    .head{
+        font-size: 34px;
+    }
+    .para{
+        height: auto;
+    }
+ }
+
+ @media(max-width:500px){
+    .row1, .row2, .row3,.row4{
+        flex-direction: column;
+    }
+    .imge{
+        width: 90%;
+    }
+ }
+
+
+
+
+
+
+
+/* --------------footer----------------- */
+@media(max-width:400px){
+    .sublast{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px
+    }
+} 
